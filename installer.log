@@ -1,0 +1,2036 @@
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.8nhp01XTqGMb"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.rLB3kxl8QDxk"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.rLB3kxl8QDxk/.disk"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.rLB3kxl8QDxk/dists"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.rLB3kxl8QDxk/pool"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:src/auto/options/mod.rs:176] found erase option on "/dev/sda": 976773168 sectors
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sdb1"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:171] install options: skipping options on "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.we3SCHzfmEit"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:src/auto/options/mod.rs:176] found erase option on "/dev/sda": 976773168 sectors
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sdb1"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:171] install options: skipping options on "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.O4M7Mx5etyOD"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:src/auto/options/mod.rs:176] found erase option on "/dev/sda": 976773168 sectors
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sdb1"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:171] install options: skipping options on "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:src/auto/options/apply.rs:86] applying configuration with Disks {
+    physical: [
+        Disk {
+            model_name: "ATA HGST HTS545050A7",
+            serial: "HGST_HTS545050A7E680_RBF50A1524AR7P",
+            device_path: "/dev/sda",
+            file_system: None,
+            mount_point: None,
+            size: 976773168,
+            device_type: "PED_DEVICE_SCSI",
+            table_type: Some(
+                Gpt,
+            ),
+            read_only: false,
+            mklabel: false,
+            partitions: [
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 1,
+                    ordering: 0,
+                    start_sector: 4096,
+                    end_sector: 2097150,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Fat32,
+                    ),
+                    flags: [
+                        PED_PARTITION_BOOT,
+                        PED_PARTITION_ESP,
+                    ],
+                    name: None,
+                    device_path: "/dev/sda1",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "ata-HGST_HTS545050A7E680_RBF50A1524AR7P-part1",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "94cf6bef-4d52-41a8-b79f-a9025635c01c",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1-part1",
+                        ),
+                        uuid: Some(
+                            "44BB-DA80",
+                        ),
+                    },
+                },
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 3,
+                    ordering: 1,
+                    start_sector: 10485760,
+                    end_sector: 968380462,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Luks,
+                    ),
+                    flags: [],
+                    name: None,
+                    device_path: "/dev/sda3",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "wwn-0x5000cca899de28b9-part3",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "b7e72eff-4b23-42da-bcc2-bd1b5c2f3ade",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1.0-part3",
+                        ),
+                        uuid: Some(
+                            "a75069fc-c0ea-4984-8ded-131669856949",
+                        ),
+                    },
+                },
+                PartitionInfo {
+                    bitflags: 57,
+                    number: 4,
+                    ordering: 2,
+                    start_sector: 968380464,
+                    end_sector: 976769070,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Swap,
+                    ),
+                    flags: [
+                        PED_PARTITION_SWAP,
+                    ],
+                    name: None,
+                    device_path: "/dev/sda4",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "wwn-0x5000cca899de28b9-part4",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "71af7912-1f4e-4c13-8feb-a8c452f0d8fe",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1-part4",
+                        ),
+                        uuid: Some(
+                            "bf332ee6-fc07-4510-8bba-7d26bbec67c0",
+                        ),
+                    },
+                },
+            ],
+        },
+        Disk {
+            model_name: "SanDisk Cruzer Blade",
+            serial: "SanDisk_Cruzer_Blade_4C531001501024122525-0:0",
+            device_path: "/dev/sdb",
+            file_system: None,
+            mount_point: None,
+            size: 30595072,
+            device_type: "PED_DEVICE_SCSI",
+            table_type: Some(
+                Gpt,
+            ),
+            read_only: false,
+            mklabel: false,
+            partitions: [
+                PartitionInfo {
+                    bitflags: 25,
+                    number: 1,
+                    ordering: 0,
+                    start_sector: 2048,
+                    end_sector: 30590975,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Fat32,
+                    ),
+                    flags: [
+                        PED_PARTITION_MSFT_DATA,
+                    ],
+                    name: None,
+                    device_path: "/dev/sdb1",
+                    mount_point: Some(
+                        "/cdrom",
+                    ),
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "usb-SanDisk_Cruzer_Blade_4C531001501024122525-0:0-part1",
+                        ),
+                        label: None,
+                        part_label: Some(
+                            "Pop_OS\\x2022.04\\x20amd",
+                        ),
+                        part_uuid: Some(
+                            "fc03892f-0bde-4343-a5af-5df88c1e880c",
+                        ),
+                        path: Some(
+                            "pci-0000:00:14.0-usb-0:3:1.0-scsi-0:0:0:0-part1",
+                        ),
+                        uuid: Some(
+                            "57F3-C000",
+                        ),
+                    },
+                },
+            ],
+        },
+    ],
+    logical: [],
+}
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:348] specifying to write new table on /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:278] unmount all partitions on /dev/sda
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 4096:2097151 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 2097152:10485759 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 10485760:968380463 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 968380464:976769071 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/data"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/data"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/data"
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[INFO distinst:src/installer/state.rs:33] starting initializing step
+[INFO distinst:src/installer/steps/initialize.rs:15] Initializing
+[INFO distinst:src/installer/steps/initialize.rs:20] config.squashfs: found at /cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs
+[INFO distinst:crates/disks/src/config/disks.rs:825] verifying if keyfiles have paths
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:414] devices to modify: ["/dev/sda1", "/dev/sda3", "/dev/sda4"]
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disks.rs:416] volume map: {}
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/disks/src/config/disks.rs:418] pvs: []
+[INFO distinst:crates/disks/src/config/disks.rs:567] unmounting devices
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk.rs:305] unmount all partitions with a target on /dev/sda
+[INFO distinst:src/installer/state.rs:33] starting partitioning step
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:src/installer/steps/partition.rs:25] /dev/sda: Committing changes to disk
+[INFO distinst:crates/disks/src/config/disk.rs:786] committing changes to /dev/sda: Disk {
+    model_name: "ATA HGST HTS545050A7",
+    serial: "HGST_HTS545050A7E680_RBF50A1524AR7P",
+    device_path: "/dev/sda",
+    file_system: None,
+    mount_point: None,
+    size: 976773168,
+    device_type: "PED_DEVICE_SCSI",
+    table_type: Some(
+        Gpt,
+    ),
+    read_only: false,
+    mklabel: true,
+    partitions: [
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 4096,
+            end_sector: 2097151,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [
+                PED_PARTITION_ESP,
+            ],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/boot/efi",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 2097152,
+            end_sector: 10485759,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [],
+            name: Some(
+                "recovery",
+            ),
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/recovery",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 10485760,
+            end_sector: 968380463,
+            part_type: Primary,
+            filesystem: Some(
+                Luks,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: None,
+            original_vg: None,
+            volume_group: Some(
+                (
+                    "data",
+                    Some(
+                        LvmEncryption { physical_volume: cryptdata, password: hidden, keydata: None },
+                    ),
+                ),
+            ),
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 968380464,
+            end_sector: 976769071,
+            part_type: Primary,
+            filesystem: Some(
+                Swap,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: None,
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+    ],
+}
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:613] generating diff of disk at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:669] proposed layout:
+	-1: 4096 - 2097151
+	-1: 2097152 - 10485759
+	-1: 10485760 - 968380463
+	-1: 968380464 - 976769071
+[INFO distinst:crates/disk-ops/src/ops.rs:50] /dev/sda: executing remove operations
+[INFO distinst:crates/external/src/block.rs:14] using wipefs to wipe signatures from "/dev/sda"
+[INFO distinst:crates/external/src/lib.rs:34] executing wipefs with ["-a", "/dev/sda"]
+[INFO distinst:crates/disk-ops/src/mklabel.rs:16] writing Gpt table on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:94] /dev/sda: executing change operations
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:218] /dev/sda: executing creation operations
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 4096, end_sector: 2097151, format: true, file_system: Some(Fat32), kind: Primary, flags: [PED_PARTITION_ESP], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 2093055 sectors: 4096 - 2097151
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (4096:2097151) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 2097152, end_sector: 10485759, format: true, file_system: Some(Fat32), kind: Primary, flags: [], label: Some("recovery") }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 8388607 sectors: 2097152 - 10485759
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (2097152:10485759) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 10485760, end_sector: 968380463, format: true, file_system: Some(Luks), kind: Primary, flags: [], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 957894703 sectors: 10485760 - 968380463
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (10485760:968380463) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 968380464, end_sector: 976769071, format: true, file_system: Some(Swap), kind: Primary, flags: [], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 8388607 sectors: 968380464 - 976769071
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (968380464:976769071) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/sda"]
+[INFO distinst:crates/disk-ops/src/ops.rs:292] executing format operations
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda1 with Fat32
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda4 with Swap
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda2 with Fat32
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda3 with Luks
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/sda2"]
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/sda1"]
+[INFO distinst:crates/disks/src/config/disk.rs:807] reloading disk information for /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 4096
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 2097152
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 10485760
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/sda"]
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/disks/src/external.rs:66] cryptsetup is encrypting /dev/sda3 with LvmEncryption { physical_volume: cryptdata, password: hidden, keydata: None }
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["-s", "512", "luksFormat", "--type", "luks2", "/dev/sda3"]
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/disks/src/external.rs:117] cryptsetup is opening /dev/sda3 with pv cryptdata and LvmEncryption { physical_volume: cryptdata, password: hidden, keydata: None }
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["open", "/dev/sda3", "cryptdata"]
+[INFO distinst:crates/external/src/lib.rs:34] executing pvcreate with ["-ffy", "/dev/mapper/cryptdata"]
+[INFO distinst:crates/external/src/lib.rs:34] executing vgcreate with ["-ffy", "data", "/dev/mapper/cryptdata"]
+[INFO distinst:crates/external/src/lib.rs:34] executing lvcreate with ["-y", "-l", "100%FREE", "data", "-n", "root"]
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.ext4 with ["-F", "-q", "-E", "lazy_itable_init", "/dev/mapper/data-root"]
+[INFO distinst:crates/disks/src/config/disks.rs:1188] associating "/dev/mapper/data" with "/dev/sda3"
+[INFO distinst:src/installer/mod.rs:170] mounting temporary chroot directory at distinst
+[INFO distinst:src/installer/mod.rs:175] mounting all targets to the temporary chroot
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/mapper/data-root" (ext4) to "/tmp/distinst.2Ye8n5cMPAvB/"
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/sda1" (vfat) to "/tmp/distinst.2Ye8n5cMPAvB/boot/efi"
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/sda2" (vfat) to "/tmp/distinst.2Ye8n5cMPAvB/recovery"
+[INFO distinst:src/installer/state.rs:33] starting extracting step
+[INFO distinst:src/installer/mod.rs:413] Extracting /cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs
+[DEBUG distinst:crates/squashfs/src/lib.rs:166] "unsquashfs" "-f" "-d" "/tmp/distinst.2Ye8n5cMPAvB" "/cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs"
+[INFO distinst:src/installer/state.rs:33] starting configuring chroot step
+[INFO distinst:src/installer/steps/configure/mod.rs:79] Configuring on /tmp/distinst.2Ye8n5cMPAvB
+[INFO distinst:src/installer/steps/configure/mod.rs:93] applying LVM initramfs autodetect workaround
+[INFO distinst:src/installer/traits.rs:32] generating /etc/crypttab & /etc/fstab in memory
+[INFO distinst:src/installer/traits.rs:144] generated the following crypttab data:
+cryptdata UUID=cf257f52-f6e2-46a8-a370-43bf30cb61ec none luks
+cryptswap UUID=bf332ee6-fc07-4510-8bba-7d26bbec67c0 /dev/urandom swap,plain,offset=1024,cipher=aes-xts-plain64,size=512
+
+[INFO distinst:src/installer/traits.rs:146] generated the following fstab data:
+PARTUUID=f5ea2cff-9d84-479c-8b44-f38125a0ff22  /boot/efi  vfat  umask=0077  0  0
+PARTUUID=9e3fedaa-a33a-4488-b6a6-b1b8524ca508  /recovery  vfat  umask=0077  0  0
+/dev/mapper/cryptswap  none  swap  defaults  0  0
+UUID=ca1a12a1-ed04-441c-9708-6bced17f0240  /  ext4  noatime,errors=remount-ro  0  1
+
+[INFO distinst:src/installer/steps/configure/mod.rs:105] writing /etc/crypttab
+[INFO distinst:src/installer/steps/configure/mod.rs:110] writing /etc/fstab
+[INFO distinst:src/installer/steps/configure/mod.rs:146] chrooting into target on /tmp/distinst.2Ye8n5cMPAvB
+[INFO distinst:crates/chroot/src/command.rs:66] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "check_language_support" "-l" "en" "--show-installed"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:268] symlinking update-initramfs to true for duration of initial setup
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "sh" "-c" "mv /usr/sbin/update-initramfs /usr/sbin/update-initramfs.bak"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "sh" "-c" "ln -s /usr/bin/true /usr/sbin/update-initramfs"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:245] setting hostname to pop-os
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:254] setting hosts file
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:238] generating machine id via `dbus-uuidgen`
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "sh" "-c" "dbus-uuidgen > /etc/machine-id"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "ln" "-sf" "/etc/machine-id" "/var/lib/dbus/machine-id"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:369] creating /etc/resolv.conf
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "ln" "-sf" "../run/systemd/resolve/stub-resolv.conf" "/etc/resolv.conf"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:231] generating locales via `locale-gen` and `update-locale`
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "locale-gen" "--purge" "en_US.UTF-8"
+[INFO distinst:crates/chroot/src/command.rs:93] Generating locales (this might take a while)...
+[INFO distinst:crates/chroot/src/command.rs:93]   en_US.UTF-8... done
+[INFO distinst:crates/chroot/src/command.rs:93] Generation complete.
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "update-locale" "--reset" "LANG=en_US.UTF-8"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "useradd" "-m" "-G" "adm,sudo,lpadmin" "-s" "/bin/bash" "-c" "semeer" "semeer"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "passwd" "semeer"
+[WARN distinst:crates/chroot/src/command.rs:93] New password: Retype new password: passwd: password updated successfully
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:104] adding apt-cdrom to /etc/apt/sources.list
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "apt-cdrom" "-o" "Acquire::cdrom::AutoDetect=0" "-o" "Acquire::cdrom::mount=/cdrom" "-o" "APT::CDROM::NoMount=1" "add"
+[INFO distinst:crates/chroot/src/command.rs:93] Using CD-ROM mount point /cdrom/
+[INFO distinst:crates/chroot/src/command.rs:93] Identifying... [7ddbb369d4ba5b59715d172ca44cdcd8-2]
+[INFO distinst:crates/chroot/src/command.rs:93] Scanning disc for index files...
+[INFO distinst:crates/chroot/src/command.rs:93] Found 2 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+[INFO distinst:crates/chroot/src/command.rs:93] Found label 'Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)'
+[INFO distinst:crates/chroot/src/command.rs:93] This disc is called: 
+[INFO distinst:crates/chroot/src/command.rs:93] 'Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)'
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv: Signature made Mon 15 Jul 2024 05:42:27 AM UTC
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv:                using RSA key 63C46DF0140D738961429F4E204DD8AEC33A7AFF
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv:                issuer "info@system76.com"
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv: Good signature from "Pop OS (ISO Signing Key) <info@system76.com>"
+[INFO distinst:crates/chroot/src/command.rs:93] Copying package lists...
+Reading Package Indexes... 0%
+
+Reading Package Indexes... 2%
+
+Reading Package Indexes... Done
+[INFO distinst:crates/chroot/src/command.rs:93] Writing new source list
+[INFO distinst:crates/chroot/src/command.rs:93] Source list entries for this disc are:
+[INFO distinst:crates/chroot/src/command.rs:93] deb cdrom:[Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)]/ jammy main restricted
+[INFO distinst:crates/chroot/src/command.rs:93] Repeat this process for the rest of the CDs in your set.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:40] installing packages: ["kernelstub", "e2fsprogs", "dosfstools", "cryptsetup", "cryptsetup-bin", "lvm2", "dmeventd", "dmraid", "kpartx", "kpartx-boot"]
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "apt-get" "install" "-y" "-o" "Acquire::cdrom::AutoDetect=0" "-o" "Acquire::cdrom::mount=/cdrom" "-o" "APT::CDROM::NoMount=1" "kernelstub" "e2fsprogs" "dosfstools" "cryptsetup" "cryptsetup-bin" "lvm2" "dmeventd" "dmraid" "kpartx" "kpartx-boot"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] kernelstub is already the newest version (3.1.4~1674849051~22.04~851230b).
+[INFO distinst:crates/chroot/src/command.rs:93] kernelstub set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] dmeventd is already the newest version (2:1.02.175-2.1ubuntu4).
+[INFO distinst:crates/chroot/src/command.rs:93] dmeventd set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] dmraid is already the newest version (1.0.0.rc16-10ubuntu2).
+[INFO distinst:crates/chroot/src/command.rs:93] dmraid set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] dosfstools is already the newest version (4.2-1build3).
+[INFO distinst:crates/chroot/src/command.rs:93] dosfstools set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] lvm2 is already the newest version (2.03.11-2.1ubuntu4).
+[INFO distinst:crates/chroot/src/command.rs:93] lvm2 set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] e2fsprogs is already the newest version (1.46.5-2ubuntu1.1).
+[INFO distinst:crates/chroot/src/command.rs:93] cryptsetup is already the newest version (2:2.4.3-1ubuntu1.2).
+[INFO distinst:crates/chroot/src/command.rs:93] cryptsetup set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] cryptsetup-bin is already the newest version (2:2.4.3-1ubuntu1.2).
+[INFO distinst:crates/chroot/src/command.rs:93] cryptsetup-bin set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] kpartx is already the newest version (0.8.8-1ubuntu1.22.04.4).
+[INFO distinst:crates/chroot/src/command.rs:93] kpartx set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] kpartx-boot is already the newest version (0.8.8-1ubuntu1.22.04.4).
+[INFO distinst:crates/chroot/src/command.rs:93] kpartx-boot set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:157] disabling apt-cdrom from /etc/apt/sources.list
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:56] removing packages: ["btrfs-progs", "casper", "cifs-utils", "distinst", "distinst-v2", "expect", "f2fs-tools", "fatresize", "gettext", "gparted", "gparted-common", "grub-common", "grub2-common", "libdistinst", "libdmraid1.0.0.rc16", "libinih1", "libnss-mymachines", "localechooser-data", "os-prober", "pop-installer", "pop-installer-casper", "pop-shop-casper", "squashfs-tools", "systemd-container", "tcl-expect", "user-setup", "uuid-runtime", "xfsprogs"]
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "apt-get" "purge" "-y" "btrfs-progs" "casper" "cifs-utils" "distinst" "distinst-v2" "expect" "f2fs-tools" "fatresize" "gettext" "gparted" "gparted-common" "grub-common" "grub2-common" "libdistinst" "libdmraid1.0.0.rc16" "libinih1" "libnss-mymachines" "localechooser-data" "os-prober" "pop-installer" "pop-installer-casper" "pop-shop-casper" "squashfs-tools" "systemd-container" "tcl-expect" "user-setup" "uuid-runtime" "xfsprogs"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] The following packages will be REMOVED:
+[INFO distinst:crates/chroot/src/command.rs:93]   btrfs-progs* casper* cifs-utils* distinst* distinst-v2* dmraid* expect*
+[INFO distinst:crates/chroot/src/command.rs:93]   f2fs-tools* fatresize* gettext* gparted* gparted-common* grub-common*
+[INFO distinst:crates/chroot/src/command.rs:93]   grub2-common* libdistinst* libdmraid1.0.0.rc16* libinih1* libnss-mymachines*
+[INFO distinst:crates/chroot/src/command.rs:93]   localechooser-data* os-prober* pop-installer* pop-installer-casper*
+[INFO distinst:crates/chroot/src/command.rs:93]   pop-shop-casper* squashfs-tools* systemd-container* tcl-expect* user-setup*
+[INFO distinst:crates/chroot/src/command.rs:93]   uuid-runtime* xfsprogs*
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 29 to remove and 2 not upgraded.
+[INFO distinst:crates/chroot/src/command.rs:93] After this operation, 53.6 MB disk space will be freed.
+[INFO distinst:crates/chroot/src/command.rs:93] (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 211131 files and directories currently installed.)
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-installer (0.0.1~1718633029~22.04~8663bfe) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing distinst-v2 (0.1.0~1711504823~22.04~e95fdb9) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing distinst (0.3.2~1704750189~22.04~4c0bbc6) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libdistinst (0.3.2~1704750189~22.04~4c0bbc6) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing btrfs-progs (5.16.2-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-installer-casper (0.0.1~1718633029~22.04~8663bfe) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-shop-casper (7.4.0pop0~1709656947~22.04~552fdf3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing casper (1.470.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing cifs-utils (2:6.14-1ubuntu0.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing dmraid (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing expect (5.45.4-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing f2fs-tools (1.14.0-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing fatresize (1.1.0-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gettext (0.21-4ubuntu4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gparted (1.3.1-1ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gparted-common (1.3.1-1ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing grub2-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing os-prober (1.79ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing grub-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring request.
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libdmraid1.0.0.rc16:amd64 (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing xfsprogs (5.13.0-1ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libinih1:amd64 (53-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libnss-mymachines:amd64 (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Checking NSS setup...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing localechooser-data (2.89ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing squashfs-tools (1:4.5-3build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing systemd-container (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing tcl-expect:amd64 (5.45.4-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing user-setup (1.88ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing uuid-runtime (2.37.2-4ubuntu3.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring request.
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'show'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for initramfs-tools (0.140ubuntu13.4pop2~1711143149~22.04~e0b5994) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for hicolor-icon-theme (0.17-2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for man-db (2.10.2-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for dbus-broker (29-4build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'is-active'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for install-info (6.8-4build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 210104 files and directories currently installed.)
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for grub2-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for cifs-utils (2:6.14-1ubuntu0.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for distinst-v2 (0.1.0~1711504823~22.04~e95fdb9) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for casper (1.470.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for grub-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for libnss-mymachines:amd64 (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for dmraid (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for systemd-container (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for uuid-runtime (2.37.2-4ubuntu3.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for user-setup (1.88ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "apt-get" "autoremove" "-y" "--purge"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:382] creating recovery partition
+[INFO distinst:crates/chroot/src/command.rs:66] running "findmnt" "-n" "-o" "UUID" "/cdrom"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "rsync" "-KLavc" "--delete-before" "/cdrom/.disk" "/cdrom/dists" "/cdrom/pool" "/recovery"
+[INFO distinst:crates/chroot/src/command.rs:93] building file list ... done
+[INFO distinst:crates/chroot/src/command.rs:93] .disk/
+[INFO distinst:crates/chroot/src/command.rs:93] .disk/info
+[INFO distinst:crates/chroot/src/command.rs:93] dists/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/Release
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/Release.gpg
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Packages
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Packages.gz
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Release
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Packages
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Packages.gz
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Release
+[INFO distinst:crates/chroot/src/command.rs:93] pool/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/at_3.2.5-1ubuntu1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/dfu-programmer_0.6.1-1build1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/efibootmgr_17-1ubuntu2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/ethtool_1x3a5.16-1ubuntu0.1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64-bin_2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64-signed_1.187.6+2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64_2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-gfxpayload-lists_0.7_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-pc-bin_2.06-2ubuntu7.2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-pc_2.06-2ubuntu7.2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/hdparm_9.60+ds-1build3_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/kernelstub_3.1.4~1674849051~22.04~851230b_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/libfl2_2.6.4-8build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/libx86-1_1.1+ds1-12_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/lm-sensors_1x3a3.6.0-7ubuntu1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pm-utils_1.4.1-19_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-vendor-dkms_0.1.0~1707324857~22.04~7c9a0a8_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-vendor_0.1.0~1707324857~22.04~7c9a0a8_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-wallpapers_1.0.0~1648843440~22.04~df86078_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/postfix_3.6.4-1ubuntu1.3_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/powermgmt-base_1.36_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-debian_0.1.43ubuntu1.1_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-distro_1.7.0-1_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-evdev_1.4.0+dfsg-1build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-systemd_234-3ubuntu2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-driver_20.04.92~1719871568~22.04~efacd2f_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-firmware-daemon_1.0.62~1719871289~22.04~5b54270_amd6.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-oled_0.1.5~1664307225~22.04~98f778d_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-wallpapers_18.04.2~1714172930~22.04~ff1e25c_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/vbetool_1.1-5_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/xbacklight_1.2.1-1build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/amd64-microcode_3.20230808.1.1pop1~1691680164~22.04~af10f17_a.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/intel-microcode_3.20240514.0ubuntu0.22.04.1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/iucode-tool_2.3.1-1build1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] 
+[INFO distinst:crates/chroot/src/command.rs:93] sent 227,297,922 bytes  received 863 bytes  19,765,111.74 bytes/sec
+[INFO distinst:crates/chroot/src/command.rs:93] total size is 227,238,092  speedup is 1.00
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.2Ye8n5cMPAvB" "rsync" "-KLavc" "/cdrom/casper/" "/recovery/casper-4BCA-0C45"
+[INFO distinst:crates/chroot/src/command.rs:93] sending incremental file list
+[WARN distinst:crates/chroot/src/command.rs:93] rsync: [sender] change_dir "/cdrom/casper" failed: No such file or directory (2)
+[INFO distinst:crates/chroot/src/command.rs:93] 
+[INFO distinst:crates/chroot/src/command.rs:93] sent 19 bytes  received 12 bytes  62.00 bytes/sec
+[INFO distinst:crates/chroot/src/command.rs:93] total size is 0  speedup is 0.00
+[WARN distinst:crates/chroot/src/command.rs:93] rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.2.7]
+[ERROR distinst:src/installer/state.rs:37] configuring chroot error: error creating recovery partition: command failed with exit status: exit status: 23
+[ERROR distinst:src/installer/mod.rs:300] errored while installing system: error creating recovery partition: command failed with exit status: exit status: 23
+[INFO distinst:ffi/src/installer.rs:190] Install error: error creating recovery partition: command failed with exit status: exit status: 23
+[INFO distinst:crates/external/src/luks.rs:101] deactivating encrypted device named cryptdata
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/external/src/lvm.rs:266] deactivating 'data'
+[INFO distinst:crates/external/src/lib.rs:34] executing vgchange with ["-ffyan", "data"]
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["close", "cryptdata"]
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.nXi3IHcaDanT"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.jFBncrFEWzeH"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.jFBncrFEWzeH/.disk"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.jFBncrFEWzeH/dists"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.jFBncrFEWzeH/pool"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:src/auto/options/mod.rs:176] found erase option on "/dev/sda": 976773168 sectors
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sdb1"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:171] install options: skipping options on "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/sda3_crypt"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/data-root"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[INFO distinst:crates/disks/src/config/disks.rs:465] decrypting partition at "/dev/sda3"
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/external/src/lvm.rs:159] obtaining logical volumes on data
+[INFO distinst:crates/external/src/lvm.rs:266] deactivating 'data'
+[INFO distinst:crates/external/src/lib.rs:34] executing vgchange with ["-ffyan", "data"]
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["close", "/dev/mapper/sda3_crypt"]
+[INFO distinst:crates/disks/src/external.rs:117] cryptsetup is opening /dev/sda3 with pv cryptdata and LvmEncryption { physical_volume: cryptdata, password: hidden, keydata: None }
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["open", "/dev/sda3", "cryptdata"]
+[INFO distinst:crates/disks/src/config/disks.rs:480] which belongs to PV "/dev/mapper/cryptdata"
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disks.rs:499] settings luks_parent to "/dev/sda3"
+[INFO distinst:crates/disks/src/config/lvm/mod.rs:183] adding partitions to LVM device
+[INFO distinst:crates/external/src/lvm.rs:248] activating 'data'
+[INFO distinst:crates/external/src/lib.rs:34] executing vgchange with ["-ffyay", "data"]
+[INFO distinst:crates/external/src/lvm.rs:159] obtaining logical volumes on data
+[INFO distinst:ffi/src/lvm.rs:77] getting logical device
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/data"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/dm-1"
+[INFO distinst:crates/external/src/luks.rs:101] deactivating encrypted device named cryptdata
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/external/src/lvm.rs:266] deactivating 'data'
+[INFO distinst:crates/external/src/lib.rs:34] executing vgchange with ["-ffyan", "data"]
+[INFO distinst:crates/external/src/lib.rs:34] executing cryptsetup with ["close", "cryptdata"]
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/sda3_crypt"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/data-root"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda1"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.M8mBfCcyshLI"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sda2"
+[INFO distinst:crates/os-detect/src/lib.rs:68] detecting OS from "/tmp/distinst.20AJWtxvQqn9"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.20AJWtxvQqn9/.disk"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.20AJWtxvQqn9/dists"
+[INFO distinst:crates/os-detect/src/lib.rs:71] Found "/tmp/distinst.20AJWtxvQqn9/pool"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda3"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda4"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:src/auto/options/mod.rs:176] found erase option on "/dev/sda": 976773168 sectors
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sdb1"
+[INFO distinst:crates/os-detect/src/lib.rs:52] detecting OS from device: "/dev/sdb1"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sdb1" has mount_opt Some(MountInfo { source: "/dev/sdb1", dest: "/cdrom", fstype: "vfat", options: ["ro", "noatime", "fmask=0022", "dmask=0022", "codepage=437", "iocharset=iso8859-1", "shortname=mixed", "errors=remount-ro"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:171] install options: skipping options on "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sda"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/sdb"
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sdb
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sdb
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sdb
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sdb1
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/zram0"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/sda3_crypt"
+[INFO distinst:crates/disks/src/config/disks.rs:596] probed "/dev/mapper/data-root"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:src/auto/options/apply.rs:86] applying configuration with Disks {
+    physical: [
+        Disk {
+            model_name: "ATA HGST HTS545050A7",
+            serial: "HGST_HTS545050A7E680_RBF50A1524AR7P",
+            device_path: "/dev/sda",
+            file_system: None,
+            mount_point: None,
+            size: 976773168,
+            device_type: "PED_DEVICE_SCSI",
+            table_type: Some(
+                Gpt,
+            ),
+            read_only: false,
+            mklabel: false,
+            partitions: [
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 1,
+                    ordering: 0,
+                    start_sector: 4096,
+                    end_sector: 2097150,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Fat32,
+                    ),
+                    flags: [
+                        PED_PARTITION_BOOT,
+                        PED_PARTITION_ESP,
+                    ],
+                    name: None,
+                    device_path: "/dev/sda1",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "ata-HGST_HTS545050A7E680_RBF50A1524AR7P-part1",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "f5ea2cff-9d84-479c-8b44-f38125a0ff22",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1-part1",
+                        ),
+                        uuid: Some(
+                            "4BCA-0AC9",
+                        ),
+                    },
+                },
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 2,
+                    ordering: 1,
+                    start_sector: 2097152,
+                    end_sector: 10485758,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Fat32,
+                    ),
+                    flags: [
+                        PED_PARTITION_MSFT_DATA,
+                    ],
+                    name: None,
+                    device_path: "/dev/sda2",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "ata-HGST_HTS545050A7E680_RBF50A1524AR7P-part2",
+                        ),
+                        label: None,
+                        part_label: Some(
+                            "recovery",
+                        ),
+                        part_uuid: Some(
+                            "9e3fedaa-a33a-4488-b6a6-b1b8524ca508",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1.0-part2",
+                        ),
+                        uuid: Some(
+                            "4BCA-0C45",
+                        ),
+                    },
+                },
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 3,
+                    ordering: 2,
+                    start_sector: 10485760,
+                    end_sector: 968380462,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Luks,
+                    ),
+                    flags: [],
+                    name: None,
+                    device_path: "/dev/sda3",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "ata-HGST_HTS545050A7E680_RBF50A1524AR7P-part3",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "7d3ad461-6d1e-4e9b-82be-63e8b8aaab3e",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1-part3",
+                        ),
+                        uuid: Some(
+                            "cf257f52-f6e2-46a8-a370-43bf30cb61ec",
+                        ),
+                    },
+                },
+                PartitionInfo {
+                    bitflags: 9,
+                    number: 4,
+                    ordering: 3,
+                    start_sector: 968380464,
+                    end_sector: 976769070,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Swap,
+                    ),
+                    flags: [
+                        PED_PARTITION_SWAP,
+                    ],
+                    name: None,
+                    device_path: "/dev/sda4",
+                    mount_point: None,
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "ata-HGST_HTS545050A7E680_RBF50A1524AR7P-part4",
+                        ),
+                        label: None,
+                        part_label: None,
+                        part_uuid: Some(
+                            "84fb7f44-e6a0-4222-b768-fe56462b8959",
+                        ),
+                        path: Some(
+                            "pci-0000:00:1f.2-ata-1.0-part4",
+                        ),
+                        uuid: Some(
+                            "bf332ee6-fc07-4510-8bba-7d26bbec67c0",
+                        ),
+                    },
+                },
+            ],
+        },
+        Disk {
+            model_name: "SanDisk Cruzer Blade",
+            serial: "SanDisk_Cruzer_Blade_4C531001501024122525-0:0",
+            device_path: "/dev/sdb",
+            file_system: None,
+            mount_point: None,
+            size: 30595072,
+            device_type: "PED_DEVICE_SCSI",
+            table_type: Some(
+                Gpt,
+            ),
+            read_only: false,
+            mklabel: false,
+            partitions: [
+                PartitionInfo {
+                    bitflags: 25,
+                    number: 1,
+                    ordering: 0,
+                    start_sector: 2048,
+                    end_sector: 30590975,
+                    part_type: Primary,
+                    filesystem: Some(
+                        Fat32,
+                    ),
+                    flags: [
+                        PED_PARTITION_MSFT_DATA,
+                    ],
+                    name: None,
+                    device_path: "/dev/sdb1",
+                    mount_point: Some(
+                        "/cdrom",
+                    ),
+                    target: None,
+                    original_vg: None,
+                    volume_group: None,
+                    key_id: None,
+                    identifiers: PartitionIdentifiers {
+                        id: Some(
+                            "usb-SanDisk_Cruzer_Blade_4C531001501024122525-0:0-part1",
+                        ),
+                        label: None,
+                        part_label: Some(
+                            "Pop_OS\\x2022.04\\x20amd",
+                        ),
+                        part_uuid: Some(
+                            "fc03892f-0bde-4343-a5af-5df88c1e880c",
+                        ),
+                        path: Some(
+                            "pci-0000:00:14.0-usb-0:3:1.0-scsi-0:0:0:0-part1",
+                        ),
+                        uuid: Some(
+                            "57F3-C000",
+                        ),
+                    },
+                },
+            ],
+        },
+    ],
+    logical: [],
+}
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:348] specifying to write new table on /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:278] unmount all partitions on /dev/sda
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 4096:2097151 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 2097152:10485759 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 10485760:968380463 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 968380464:976769071 overlaps
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[DEBUG distinst:crates/disk-types/src/sector.rs:17] get block size for "/sys/class/block/sda"
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:49] libdistinst: pointer in FFI is null
+[INFO distinst:src/installer/state.rs:33] starting initializing step
+[INFO distinst:src/installer/steps/initialize.rs:15] Initializing
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disks/src/config/disks.rs:825] verifying if keyfiles have paths
+[INFO distinst:src/installer/steps/initialize.rs:20] config.squashfs: found at /cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disks.rs:414] devices to modify: ["/dev/sda1", "/dev/sda2", "/dev/sda3", "/dev/sda4"]
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disks.rs:416] volume map: {}
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/disks/src/config/disks.rs:418] pvs: []
+[INFO distinst:crates/disks/src/config/disks.rs:567] unmounting devices
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda4" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk.rs:305] unmount all partitions with a target on /dev/sda
+[INFO distinst:src/installer/state.rs:33] starting partitioning step
+[INFO distinst:crates/external/src/lvm.rs:209] obtaining list of physical volumes
+[INFO distinst:src/installer/steps/partition.rs:25] /dev/sda: Committing changes to disk
+[INFO distinst:crates/disks/src/config/disk.rs:786] committing changes to /dev/sda: Disk {
+    model_name: "ATA HGST HTS545050A7",
+    serial: "HGST_HTS545050A7E680_RBF50A1524AR7P",
+    device_path: "/dev/sda",
+    file_system: None,
+    mount_point: None,
+    size: 976773168,
+    device_type: "PED_DEVICE_SCSI",
+    table_type: Some(
+        Gpt,
+    ),
+    read_only: false,
+    mklabel: true,
+    partitions: [
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 4096,
+            end_sector: 2097151,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [
+                PED_PARTITION_ESP,
+            ],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/boot/efi",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 2097152,
+            end_sector: 10485759,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [],
+            name: Some(
+                "recovery",
+            ),
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/recovery",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 10485760,
+            end_sector: 968380463,
+            part_type: Primary,
+            filesystem: Some(
+                Ext4,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 968380464,
+            end_sector: 976769071,
+            part_type: Primary,
+            filesystem: Some(
+                Swap,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: None,
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+    ],
+}
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:613] generating diff of disk at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:669] proposed layout:
+	-1: 4096 - 2097151
+	-1: 2097152 - 10485759
+	-1: 10485760 - 968380463
+	-1: 968380464 - 976769071
+[INFO distinst:crates/disk-ops/src/ops.rs:50] /dev/sda: executing remove operations
+[INFO distinst:crates/external/src/block.rs:14] using wipefs to wipe signatures from "/dev/sda"
+[INFO distinst:crates/external/src/lib.rs:34] executing wipefs with ["-a", "/dev/sda"]
+[INFO distinst:crates/disk-ops/src/mklabel.rs:16] writing Gpt table on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:94] /dev/sda: executing change operations
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:218] /dev/sda: executing creation operations
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 4096, end_sector: 2097151, format: true, file_system: Some(Fat32), kind: Primary, flags: [PED_PARTITION_ESP], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 2093055 sectors: 4096 - 2097151
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (4096:2097151) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 2097152, end_sector: 10485759, format: true, file_system: Some(Fat32), kind: Primary, flags: [], label: Some("recovery") }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 8388607 sectors: 2097152 - 10485759
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (2097152:10485759) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 10485760, end_sector: 968380463, format: true, file_system: Some(Ext4), kind: Primary, flags: [], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 957894703 sectors: 10485760 - 968380463
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (10485760:968380463) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/sda", start_sector: 968380464, end_sector: 976769071, format: true, file_system: Some(Swap), kind: Primary, flags: [], label: None }) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:81] creating new partition with 8388607 sectors: 968380464 - 976769071
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disk-ops/src/mkpart.rs:124] committing new partition (968380464:976769071) on /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/sda"]
+[INFO distinst:crates/disk-ops/src/ops.rs:292] executing format operations
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda3 with Ext4
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.ext4 with ["-F", "-q", "-E", "lazy_itable_init", "/dev/sda3"]
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda4 with Swap
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda1 with Fat32
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/sda1"]
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/sda2 with Fat32
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/sda2"]
+[INFO distinst:crates/disks/src/config/disk.rs:807] reloading disk information for /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/sda
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:119] obtaining partition information from /dev/sda4
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 4096
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 2097152
+[INFO distinst:crates/disks/src/config/disk.rs:831] checking for mount target at 10485760
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/sda"]
+[INFO distinst:src/installer/mod.rs:170] mounting temporary chroot directory at distinst
+[INFO distinst:src/installer/mod.rs:175] mounting all targets to the temporary chroot
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/sda3" (ext4) to "/tmp/distinst.cTDSd8tXDwmE/"
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/sda1" (vfat) to "/tmp/distinst.cTDSd8tXDwmE/boot/efi"
+[INFO distinst:crates/disks/src/config/disks.rs:260] mounting "/dev/sda2" (vfat) to "/tmp/distinst.cTDSd8tXDwmE/recovery"
+[INFO distinst:src/installer/state.rs:33] starting extracting step
+[INFO distinst:src/installer/mod.rs:413] Extracting /cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs
+[DEBUG distinst:crates/squashfs/src/lib.rs:166] "unsquashfs" "-f" "-d" "/tmp/distinst.cTDSd8tXDwmE" "/cdrom/casper_pop-os_22.04_amd64_intel_debug_891/filesystem.squashfs"
+[INFO distinst:src/installer/state.rs:33] starting configuring chroot step
+[INFO distinst:src/installer/steps/configure/mod.rs:79] Configuring on /tmp/distinst.cTDSd8tXDwmE
+[INFO distinst:src/installer/steps/configure/mod.rs:93] applying LVM initramfs autodetect workaround
+[INFO distinst:src/installer/traits.rs:32] generating /etc/crypttab & /etc/fstab in memory
+[INFO distinst:src/installer/traits.rs:144] generated the following crypttab data:
+cryptswap UUID=bf332ee6-fc07-4510-8bba-7d26bbec67c0 /dev/urandom swap,plain,offset=1024,cipher=aes-xts-plain64,size=512
+
+[INFO distinst:src/installer/traits.rs:146] generated the following fstab data:
+PARTUUID=091a0607-55d2-4604-864f-e14e15ca7c33  /boot/efi  vfat  umask=0077  0  0
+PARTUUID=d168a604-88c7-4e48-aff9-b4e9e488bc17  /recovery  vfat  umask=0077  0  0
+UUID=207408b6-08b4-481e-94ac-b6bdba3dd506  /  ext4  noatime,errors=remount-ro  0  1
+/dev/mapper/cryptswap  none  swap  defaults  0  0
+
+[INFO distinst:src/installer/steps/configure/mod.rs:105] writing /etc/crypttab
+[INFO distinst:src/installer/steps/configure/mod.rs:110] writing /etc/fstab
+[INFO distinst:src/installer/steps/configure/mod.rs:146] chrooting into target on /tmp/distinst.cTDSd8tXDwmE
+[INFO distinst:crates/chroot/src/command.rs:66] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "check_language_support" "-l" "en" "--show-installed"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:268] symlinking update-initramfs to true for duration of initial setup
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "sh" "-c" "mv /usr/sbin/update-initramfs /usr/sbin/update-initramfs.bak"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "sh" "-c" "ln -s /usr/bin/true /usr/sbin/update-initramfs"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:245] setting hostname to pop-os
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:254] setting hosts file
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:238] generating machine id via `dbus-uuidgen`
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "sh" "-c" "dbus-uuidgen > /etc/machine-id"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "ln" "-sf" "/etc/machine-id" "/var/lib/dbus/machine-id"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:369] creating /etc/resolv.conf
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "ln" "-sf" "../run/systemd/resolve/stub-resolv.conf" "/etc/resolv.conf"
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:231] generating locales via `locale-gen` and `update-locale`
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "locale-gen" "--purge" "en_US.UTF-8"
+[INFO distinst:crates/chroot/src/command.rs:93] Generating locales (this might take a while)...
+[INFO distinst:crates/chroot/src/command.rs:93]   en_US.UTF-8... done
+[INFO distinst:crates/chroot/src/command.rs:93] Generation complete.
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "update-locale" "--reset" "LANG=en_US.UTF-8"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "useradd" "-m" "-G" "adm,sudo,lpadmin" "-s" "/bin/bash" "-c" "semeer" "semeer"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "passwd" "semeer"
+[WARN distinst:crates/chroot/src/command.rs:93] New password: Retype new password: passwd: password updated successfully
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:104] adding apt-cdrom to /etc/apt/sources.list
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "apt-cdrom" "-o" "Acquire::cdrom::AutoDetect=0" "-o" "Acquire::cdrom::mount=/cdrom" "-o" "APT::CDROM::NoMount=1" "add"
+[INFO distinst:crates/chroot/src/command.rs:93] Using CD-ROM mount point /cdrom/
+[INFO distinst:crates/chroot/src/command.rs:93] Identifying... [7ddbb369d4ba5b59715d172ca44cdcd8-2]
+[INFO distinst:crates/chroot/src/command.rs:93] Scanning disc for index files...
+[INFO distinst:crates/chroot/src/command.rs:93] Found 2 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+[INFO distinst:crates/chroot/src/command.rs:93] Found label 'Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)'
+[INFO distinst:crates/chroot/src/command.rs:93] This disc is called: 
+[INFO distinst:crates/chroot/src/command.rs:93] 'Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)'
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv: Signature made Mon 15 Jul 2024 05:42:27 AM UTC
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv:                using RSA key 63C46DF0140D738961429F4E204DD8AEC33A7AFF
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv:                issuer "info@system76.com"
+[WARN distinst:crates/chroot/src/command.rs:93] gpgv: Good signature from "Pop OS (ISO Signing Key) <info@system76.com>"
+[INFO distinst:crates/chroot/src/command.rs:93] Copying package lists...
+Reading Package Indexes... 0%
+
+Reading Package Indexes... 2%
+
+Reading Package Indexes... Done
+[INFO distinst:crates/chroot/src/command.rs:93] Writing new source list
+[INFO distinst:crates/chroot/src/command.rs:93] Source list entries for this disc are:
+[INFO distinst:crates/chroot/src/command.rs:93] deb cdrom:[Pop_OS 22.04 _Jammy Jellyfish_ - Release amd64 (20240714)]/ jammy main restricted
+[INFO distinst:crates/chroot/src/command.rs:93] Repeat this process for the rest of the CDs in your set.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:40] installing packages: ["kernelstub", "e2fsprogs", "dosfstools"]
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "apt-get" "install" "-y" "-o" "Acquire::cdrom::AutoDetect=0" "-o" "Acquire::cdrom::mount=/cdrom" "-o" "APT::CDROM::NoMount=1" "kernelstub" "e2fsprogs" "dosfstools"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] kernelstub is already the newest version (3.1.4~1674849051~22.04~851230b).
+[INFO distinst:crates/chroot/src/command.rs:93] kernelstub set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] dosfstools is already the newest version (4.2-1build3).
+[INFO distinst:crates/chroot/src/command.rs:93] dosfstools set to manually installed.
+[INFO distinst:crates/chroot/src/command.rs:93] e2fsprogs is already the newest version (1.46.5-2ubuntu1.1).
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:157] disabling apt-cdrom from /etc/apt/sources.list
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:56] removing packages: ["btrfs-progs", "casper", "cifs-utils", "distinst", "distinst-v2", "dmraid", "expect", "f2fs-tools", "fatresize", "gettext", "gparted", "gparted-common", "grub-common", "grub2-common", "kpartx", "kpartx-boot", "libdistinst", "libdmraid1.0.0.rc16", "libinih1", "libnss-mymachines", "localechooser-data", "os-prober", "pop-installer", "pop-installer-casper", "pop-shop-casper", "squashfs-tools", "systemd-container", "tcl-expect", "user-setup", "uuid-runtime", "xfsprogs"]
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "apt-get" "purge" "-y" "btrfs-progs" "casper" "cifs-utils" "distinst" "distinst-v2" "dmraid" "expect" "f2fs-tools" "fatresize" "gettext" "gparted" "gparted-common" "grub-common" "grub2-common" "kpartx" "kpartx-boot" "libdistinst" "libdmraid1.0.0.rc16" "libinih1" "libnss-mymachines" "localechooser-data" "os-prober" "pop-installer" "pop-installer-casper" "pop-shop-casper" "squashfs-tools" "systemd-container" "tcl-expect" "user-setup" "uuid-runtime" "xfsprogs"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] The following packages will be REMOVED:
+[INFO distinst:crates/chroot/src/command.rs:93]   btrfs-progs* casper* cifs-utils* distinst* distinst-v2* dmraid* expect*
+[INFO distinst:crates/chroot/src/command.rs:93]   f2fs-tools* fatresize* gettext* gparted* gparted-common* grub-common*
+[INFO distinst:crates/chroot/src/command.rs:93]   grub2-common* kpartx* kpartx-boot* libdistinst* libdmraid1.0.0.rc16*
+[INFO distinst:crates/chroot/src/command.rs:93]   libinih1* libnss-mymachines* localechooser-data* os-prober* pop-installer*
+[INFO distinst:crates/chroot/src/command.rs:93]   pop-installer-casper* pop-shop-casper* squashfs-tools* systemd-container*
+[INFO distinst:crates/chroot/src/command.rs:93]   tcl-expect* user-setup* uuid-runtime* xfsprogs*
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 31 to remove and 2 not upgraded.
+[INFO distinst:crates/chroot/src/command.rs:93] After this operation, 53.8 MB disk space will be freed.
+[INFO distinst:crates/chroot/src/command.rs:93] (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 211131 files and directories currently installed.)
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-installer (0.0.1~1718633029~22.04~8663bfe) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing distinst-v2 (0.1.0~1711504823~22.04~e95fdb9) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing distinst (0.3.2~1704750189~22.04~4c0bbc6) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libdistinst (0.3.2~1704750189~22.04~4c0bbc6) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing btrfs-progs (5.16.2-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-installer-casper (0.0.1~1718633029~22.04~8663bfe) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing pop-shop-casper (7.4.0pop0~1709656947~22.04~552fdf3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing casper (1.470.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing cifs-utils (2:6.14-1ubuntu0.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing dmraid (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing expect (5.45.4-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing f2fs-tools (1.14.0-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing fatresize (1.1.0-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gettext (0.21-4ubuntu4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gparted (1.3.1-1ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing gparted-common (1.3.1-1ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing grub2-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing os-prober (1.79ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing grub-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring request.
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Removing kpartx-boot (0.8.8-1ubuntu1.22.04.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing kpartx (0.8.8-1ubuntu1.22.04.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libdmraid1.0.0.rc16:amd64 (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing xfsprogs (5.13.0-1ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libinih1:amd64 (53-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing libnss-mymachines:amd64 (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Checking NSS setup...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing localechooser-data (2.89ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing squashfs-tools (1:4.5-3build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing systemd-container (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing tcl-expect:amd64 (5.45.4-2build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing user-setup (1.88ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Removing uuid-runtime (2.37.2-4ubuntu3.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'stop'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring request.
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'show'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for initramfs-tools (0.140ubuntu13.4pop2~1711143149~22.04~e0b5994) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for hicolor-icon-theme (0.17-2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for man-db (2.10.2-1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for dbus-broker (29-4build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'is-active'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for install-info (6.8-4build1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+[INFO distinst:crates/chroot/src/command.rs:93] (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 210089 files and directories currently installed.)
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for kpartx-boot (0.8.8-1ubuntu1.22.04.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for grub2-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for cifs-utils (2:6.14-1ubuntu0.1) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for distinst-v2 (0.1.0~1711504823~22.04~e95fdb9) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for casper (1.470.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for grub-common (2.06-2ubuntu7.2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for libnss-mymachines:amd64 (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for dmraid (1.0.0.rc16-10ubuntu2) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for systemd-container (249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for uuid-runtime (2.37.2-4ubuntu3.4) ...
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Running in chroot, ignoring command 'daemon-reload'
+[INFO distinst:crates/chroot/src/command.rs:93] Purging configuration files for user-setup (1.88ubuntu1) ...
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "apt-get" "autoremove" "-y" "--purge"
+[INFO distinst:crates/chroot/src/command.rs:93] Reading package lists...
+[INFO distinst:crates/chroot/src/command.rs:93] Building dependency tree...
+[INFO distinst:crates/chroot/src/command.rs:93] Reading state information...
+[INFO distinst:crates/chroot/src/command.rs:93] 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[INFO distinst:src/installer/steps/configure/chroot_conf.rs:382] creating recovery partition
+[INFO distinst:crates/chroot/src/command.rs:66] running "findmnt" "-n" "-o" "UUID" "/cdrom"
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "rsync" "-KLavc" "--delete-before" "/cdrom/.disk" "/cdrom/dists" "/cdrom/pool" "/recovery"
+[INFO distinst:crates/chroot/src/command.rs:93] building file list ... done
+[INFO distinst:crates/chroot/src/command.rs:93] .disk/
+[INFO distinst:crates/chroot/src/command.rs:93] .disk/info
+[INFO distinst:crates/chroot/src/command.rs:93] dists/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/Release
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/Release.gpg
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Packages
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Packages.gz
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/main/binary-amd64/Release
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Packages
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Packages.gz
+[INFO distinst:crates/chroot/src/command.rs:93] dists/jammy/restricted/binary-amd64/Release
+[INFO distinst:crates/chroot/src/command.rs:93] pool/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/at_3.2.5-1ubuntu1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/dfu-programmer_0.6.1-1build1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/efibootmgr_17-1ubuntu2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/ethtool_1x3a5.16-1ubuntu0.1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64-bin_2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64-signed_1.187.6+2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-efi-amd64_2.06-2ubuntu14.4_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-gfxpayload-lists_0.7_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-pc-bin_2.06-2ubuntu7.2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/grub-pc_2.06-2ubuntu7.2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/hdparm_9.60+ds-1build3_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/kernelstub_3.1.4~1674849051~22.04~851230b_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/libfl2_2.6.4-8build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/libx86-1_1.1+ds1-12_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/lm-sensors_1x3a3.6.0-7ubuntu1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pm-utils_1.4.1-19_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-vendor-dkms_0.1.0~1707324857~22.04~7c9a0a8_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-vendor_0.1.0~1707324857~22.04~7c9a0a8_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/pop-hp-wallpapers_1.0.0~1648843440~22.04~df86078_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/postfix_3.6.4-1ubuntu1.3_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/powermgmt-base_1.36_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-debian_0.1.43ubuntu1.1_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-distro_1.7.0-1_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-evdev_1.4.0+dfsg-1build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/python3-systemd_234-3ubuntu2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-driver_20.04.92~1719871568~22.04~efacd2f_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-firmware-daemon_1.0.62~1719871289~22.04~5b54270_amd6.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-oled_0.1.5~1664307225~22.04~98f778d_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/system76-wallpapers_18.04.2~1714172930~22.04~ff1e25c_all.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/vbetool_1.1-5_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/main/xbacklight_1.2.1-1build2_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/amd64-microcode_3.20230808.1.1pop1~1691680164~22.04~af10f17_a.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/intel-microcode_3.20240514.0ubuntu0.22.04.1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] pool/restricted/iucode-tool_2.3.1-1build1_amd64.deb
+[INFO distinst:crates/chroot/src/command.rs:93] 
+[INFO distinst:crates/chroot/src/command.rs:93] sent 227,297,922 bytes  received 863 bytes  23,926,187.89 bytes/sec
+[INFO distinst:crates/chroot/src/command.rs:93] total size is 227,238,092  speedup is 1.00
+[INFO distinst:crates/chroot/src/command.rs:103] running DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="en_US.UTF-8" PATH="/usr/sbin:/usr/bin:/sbin:/bin" "chroot" "/tmp/distinst.cTDSd8tXDwmE" "rsync" "-KLavc" "/cdrom/casper/" "/recovery/casper-9FF6-EB96"
+[INFO distinst:crates/chroot/src/command.rs:93] sending incremental file list
+[WARN distinst:crates/chroot/src/command.rs:93] rsync: [sender] change_dir "/cdrom/casper" failed: No such file or directory (2)
+[INFO distinst:crates/chroot/src/command.rs:93] 
+[INFO distinst:crates/chroot/src/command.rs:93] sent 19 bytes  received 12 bytes  62.00 bytes/sec
+[INFO distinst:crates/chroot/src/command.rs:93] total size is 0  speedup is 0.00
+[WARN distinst:crates/chroot/src/command.rs:93] rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.2.7]
+[ERROR distinst:src/installer/state.rs:37] configuring chroot error: error creating recovery partition: command failed with exit status: exit status: 23
+[ERROR distinst:src/installer/mod.rs:300] errored while installing system: error creating recovery partition: command failed with exit status: exit status: 23
+[INFO distinst:ffi/src/installer.rs:190] Install error: error creating recovery partition: command failed with exit status: exit status: 23
